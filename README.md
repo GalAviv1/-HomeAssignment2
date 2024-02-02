@@ -1,2 +1,2 @@
 # -HomeAssignment2
-From this task i have learned about how to access the desired element without destroying the other elements that are in the same class with it, how to design animations and create them in css and how to adjust the screen content to any size.
+From this task i have learned about how to access the desired element without destroying the other elements that are in the same class with it, how to design animations and create them in css and how to adjust the screen content to any size. My website basically shows my entire life history in a professional and academic context and can be navigated with the help of the menu i created.
