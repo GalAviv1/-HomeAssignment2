@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <title>Gals' Projects</title>
+  <link rel="stylesheet" href="stylesheet.css"> 
+</head>
+
+
+<body>
+  <header>   
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="./Homepage.html">Home</a></li>
+        <li><a href="./About.html">About</a></li>
+        <li> <a href="./SkillsResume.html">Skills & Resume</a></li>
+        <li>  <a href="./Projects.html">Projects</a></li>
+      </ul>
+      <ul>
+        <li><a href="./Homepage.html">Gal Aviv</a></li>
+        <li class="hideOnMobile"><a href="./Homepage.html">Home</a></li>
+        <li class="hideOnMobile"><a href="./About.html">About</a></li>
+        <li class="hideOnMobile"><a href="./SkillsResume.html">Skills & Resume</a></li>
+        <li id="projects" class="hideOnMobile"><a href="./Projects.html">Projects</a></li>
+        <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+    </nav>
+    <script>
+      function showsidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+</header>  
+
+  <section class="Projects">
+<div class="container">
+<h1 class="projects-head"> Projects </h1>
+<p>Achievements I have reached before being 26  </p>
+<div class="card-grid">
+  <div class="card">
+    <img src="./images/manager.png">
+    <h2>Big budget projects</h2>
+    <p>I led and managed logistically and budgetary a project totaling NIS 6 million to establish a new military base in the Jewish Quarter of Jerusalem.</p>
+  </div>
+  <div class="card">
+    <img src="./images/checklists.png">
+    <h2>Control and collection</h2>
+    <p>I initiated a change in the work process in the cellular sector in the company for energy and electricity solutions. The change led to savings of up to 80% in the company's expenses and closed a decades-old debt.</p>
+  </div>
+  <div class="card">
+  <img src="./images/industialEngin.png">
+  <h2>Small but valuable projects</h2>
+  <ul>
+    <li>Managing budgets in the food sector in cycles of NIS 250 per quarter.</li>
+    <li>Managing and accompanying administrative projects and producing events for up to 150 people.</li>
+    <li>Exclusive responsibility for the professional and personal development of military personnel in the service: permanent, regular
+      and the reserves.</li>
+    <li>Working with the senior officials of the Israeli economy, ministers, public figures, military and media</li>
+  </ul>
+  </div>
+</div> 
+      </section>
+</body>
+</html>
